@@ -1,10 +1,13 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import confetti from "canvas-confetti";
+import { FaBookOpen, FaHeart, FaImages } from "react-icons/fa"; // Import icons
 import gukaPotrait from "../assets/guka.jpeg";
 import sendOffBanner from "../assets/send-off-banner.png";
 import doveImage from "../assets/dove.png";
 
 const HeroSection = () => {
+  const [showButtons, setShowButtons] = useState(false);
+
   useEffect(() => {
     // Trigger continuous confetti
     const confettiInterval = setInterval(() => {
@@ -13,7 +16,7 @@ const HeroSection = () => {
         spread: 70,
         origin: { y: 0.6 },
       });
-    }, 3000); // Adjust the interval to control the frequency of confetti bursts
+    }, 3000);
 
     // Animate falling dove angels
     const doveContainer = document.getElementById("doveContainer");
@@ -30,9 +33,20 @@ const HeroSection = () => {
       dove.style.animationDelay = `${index * 3}s`;
     });
 
-    // Cleanup interval on component unmount
+    // Show buttons when scrolling down
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setShowButtons(true);
+      } else {
+        setShowButtons(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
     return () => {
       clearInterval(confettiInterval);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -44,7 +58,6 @@ const HeroSection = () => {
           alt='Send Off'
           className='h-full w-full object-cover rounded-lg'
         />
-        {/* Portrait Image */}
         <img
           src={gukaPotrait}
           alt='Isaac Ngariuku Matu'
@@ -68,8 +81,49 @@ const HeroSection = () => {
       ></div>
       <div className='w-full overflow-hidden mt-8'>
         <p className='moving-text text-3xl font-bold text-darkBlue whitespace-nowrap'>
-          96 years of age! We're grateful to God the Almighty. 
+          96 years of age! We're grateful to God the Almighty.
         </p>
+      </div>
+
+      {/* Navigation Buttons */}
+      <div
+        className={`fixed bottom-10 w-full px-4 flex justify-around md:justify-center md:space-x-8 transition-opacity duration-500 ${
+          showButtons ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        <div className='relative group'>
+          <div className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'>
+            <FaBookOpen className='text-4xl md:text-2xl' />
+            <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
+              Funeral Programme
+            </span>
+          </div>
+          <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 text-darkBlue md:hidden'>
+            Funeral Programme
+          </span>
+        </div>
+        <div className='relative group'>
+          <div className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'>
+            <FaHeart className='text-4xl md:text-2xl' />
+            <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
+              Tributes
+            </span>
+          </div>
+          <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 text-darkBlue md:hidden'>
+            Tributes
+          </span>
+        </div>
+        <div className='relative group'>
+          <div className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'>
+            <FaImages className='text-4xl md:text-2xl' />
+            <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
+              Memories
+            </span>
+          </div>
+          <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 text-darkBlue md:hidden'>
+            Memories
+          </span>
+        </div>
       </div>
     </section>
   );
