@@ -47,13 +47,13 @@ const HeroSection = () => {
         {/* Portrait Image */}
         <img
           src={gukaPotrait}
-          alt='Isaac Ngaruiku Matu'
+          alt='Isaac Ngariuku Matu'
           className='absolute -bottom-20 md:-bottom-32 left-1/2 transform -translate-x-1/2 rounded-full w-40 h-40 md:w-60 md:h-60 object-cover border-4 border-creamWhite'
         />
       </div>
       <div className='container mx-auto font-serif mt-[70px] md:mt-32'>
         <h2 className='text-4xl font-semibold italic mt-4 text-darkBlue'>
-          Celebrating the life of Isaac Ngaruiku Matu
+          Celebrating the life of Isaac Ngariuku Matu
         </h2>
         <h2 className='text-2xl font-semibold italic mt-4 text-darkBlue'>
           10<sup>th</sup> Oct 1928 - 2<sup>nd</sup> Sept 2024
@@ -66,8 +66,10 @@ const HeroSection = () => {
         id='doveContainer'
         className='absolute inset-0 pointer-events-none'
       ></div>
-      <div>
-        {/* Here I want us to have a moving text - the text should be moving horizontally showing the number of years our GrandFather has lived: 96 years of age... We're Grateful to God */}
+      <div className='w-full overflow-hidden mt-8'>
+        <p className='moving-text text-3xl font-bold text-darkBlue whitespace-nowrap'>
+          96 years of age! We're grateful to God the Almighty. 
+        </p>
       </div>
     </section>
   );
