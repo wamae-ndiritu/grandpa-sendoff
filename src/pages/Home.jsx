@@ -1,13 +1,13 @@
 import Biography from "../components/Biography";
 import HeroSection from "../components/HeroSection";
-import Navbar from "../components/Navbar";
+import Memories from "../components/Memories";
 
 const Home = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <HeroSection />
       <Biography />
+      <Memories />
     </>
   );
 };

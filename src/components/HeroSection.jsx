@@ -87,7 +87,7 @@ const HeroSection = () => {
 
       {/* Navigation Buttons */}
       <div
-        className={`fixed bottom-10 w-full px-4 flex justify-around md:justify-center md:space-x-8 transition-opacity duration-500 ${
+        className={`fixed bottom-10 z-[99] w-full px-4 flex justify-around md:justify-center md:space-x-8 transition-opacity duration-500 ${
           showButtons ? "opacity-100" : "opacity-0"
         }`}
       >
@@ -114,12 +114,12 @@ const HeroSection = () => {
           </span>
         </div>
         <div className='relative group'>
-          <div className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'>
+          <a href="#memories" className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'>
             <FaImages className='text-4xl md:text-2xl' />
             <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
               Memories
             </span>
-          </div>
+          </a>
           <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 text-darkBlue md:hidden'>
             Memories
           </span>
