@@ -51,7 +51,7 @@ const Memories = () => {
   };
 
   return (
-    <div className='memories-container py-10 px-4'>
+    <div className='memories-container py-10 px-4' id="memories">
       <h2 className='text-3xl font-bold text-darkBlue text-center mb-8'>
         Memories
       </h2>

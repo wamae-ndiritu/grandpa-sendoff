@@ -69,7 +69,7 @@ const HeroSection = () => {
           Celebrating the life of Isaac Ngariuku Matu
         </h2>
         <h2 className='text-2xl font-semibold italic mt-4 text-darkBlue'>
-          10<sup>th</sup> Oct 1928 - 2<sup>nd</sup> Sept 2024
+          1926 - 2<sup>nd</sup> Sept 2024
         </h2>
         <p className='mt-4 text-2xl text-darkBlue'>
           A life well lived, full of love and wisdom.
@@ -81,7 +81,7 @@ const HeroSection = () => {
       ></div>
       <div className='w-full overflow-hidden mt-8'>
         <p className='moving-text text-3xl font-bold text-darkBlue whitespace-nowrap'>
-          96 years of age! We're grateful to God the Almighty.
+          98 years of age! We're grateful to God the Almighty.
         </p>
       </div>
 
@@ -92,29 +92,56 @@ const HeroSection = () => {
         }`}
       >
         <div className='relative group'>
-          <div className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'>
+          <a
+            href='#funeral-programme'
+            onClick={(e) => {
+              e.preventDefault();
+              document.querySelector("#funeral-programme").scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+            className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'
+          >
             <FaBookOpen className='text-4xl md:text-2xl' />
             <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
               Funeral Programme
             </span>
-          </div>
+          </a>
           <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 text-darkBlue md:hidden'>
             Funeral Programme
           </span>
         </div>
         <div className='relative group'>
-          <div className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'>
+          <a
+            href='#tributes'
+            onClick={(e) => {
+              e.preventDefault();
+              document.querySelector("#tributes").scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+            className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'
+          >
             <FaHeart className='text-4xl md:text-2xl' />
             <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
               Tributes
             </span>
-          </div>
+          </a>
           <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 text-darkBlue md:hidden'>
             Tributes
           </span>
         </div>
         <div className='relative group'>
-          <a href="#memories" className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'>
+          <a
+            href='#memories'
+            onClick={(e) => {
+              e.preventDefault();
+              document.querySelector("#memories").scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+            className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'
+          >
             <FaImages className='text-4xl md:text-2xl' />
             <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
               Memories
