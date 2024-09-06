@@ -12,6 +12,51 @@ import image9 from "../assets/photos/img-9.jpg";
 import image10 from "../assets/photos/img-10.jpeg";
 import image11 from "../assets/photos/img-11.jpg";
 import image12 from "../assets/photos/img-12.jpeg";
+import photo1 from "../assets/photos/1.jpeg";
+import photo2 from "../assets/photos/2.jpeg";
+import photo3 from "../assets/photos/3.jpeg";
+import photo4 from "../assets/photos/4.jpeg";
+import photo5 from "../assets/photos/5.jpeg";
+import photo6 from "../assets/photos/6.jpeg";
+import photo7 from "../assets/photos/7.jpeg";
+import photo8 from "../assets/photos/8.jpeg";
+import photo9 from "../assets/photos/9.jpeg";
+import photo10 from "../assets/photos/10.jpeg";
+import photo11 from "../assets/photos/11.jpeg";
+import photo12 from "../assets/photos/12.jpeg";
+import photo13 from "../assets/photos/13.jpeg";
+import photo14 from "../assets/photos/14.jpeg";
+import photo15 from "../assets/photos/15.jpeg";
+import photo16 from "../assets/photos/16.jpeg";
+import photo17 from "../assets/photos/17.jpeg";
+import photo18 from "../assets/photos/18.jpeg";
+import photo19 from "../assets/photos/19.jpeg";
+import photo20 from "../assets/photos/20.jpeg";
+import photo21 from "../assets/photos/21.jpeg";
+import photo22 from "../assets/photos/22.jpeg";
+import photo23 from "../assets/photos/23.jpeg";
+import photo24 from "../assets/photos/24.jpeg";
+import photo25 from "../assets/photos/25.jpeg";
+import photo26 from "../assets/photos/26.jpeg";
+import photo27 from "../assets/photos/27.jpeg";
+import photo28 from "../assets/photos/28.jpeg";
+import photo29 from "../assets/photos/29.jpeg";
+import photo30 from "../assets/photos/30.jpeg";
+import photo31 from "../assets/photos/31.jpeg";
+import photo32 from "../assets/photos/32.jpeg";
+import photo33 from "../assets/photos/33.jpeg";
+import photo34 from "../assets/photos/34.jpeg";
+import photo35 from "../assets/photos/35.jpeg";
+import photo36 from "../assets/photos/36.jpeg";
+import photo37 from "../assets/photos/37.jpeg";
+import photo38 from "../assets/photos/38.jpeg";
+import photo39 from "../assets/photos/39.jpeg";
+import photo40 from "../assets/photos/40.jpeg";
+import photo41 from "../assets/photos/41.jpeg";
+import photo42 from "../assets/photos/42.jpeg";
+import photo43 from "../assets/photos/43.jpeg";
+import photo44 from "../assets/photos/44.jpeg";
+import photo45 from "../assets/photos/45.jpeg";
 
 const Memories = () => {
   const images = [
@@ -27,6 +72,51 @@ const Memories = () => {
     image10,
     image11,
     image12,
+    photo1,
+    photo2,
+    photo3,
+    photo4,
+    photo5,
+    photo6,
+    photo7,
+    photo8,
+    photo9,
+    photo10,
+    photo11,
+    photo12,
+    photo13,
+    photo14,
+    photo15,
+    photo16,
+    photo17,
+    photo18,
+    photo19,
+    photo20,
+    photo21,
+    photo22,
+    photo23,
+    photo24,
+    photo25,
+    photo26,
+    photo27,
+    photo28,
+    photo29,
+    photo30,
+    photo31,
+    photo32,
+    photo33,
+    photo34,
+    photo35,
+    photo36,
+    photo37,
+    photo38,
+    photo39,
+    photo40,
+    photo41,
+    photo42,
+    photo43,
+    photo44,
+    photo45,
   ];
   const [isOpen, setIsOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
