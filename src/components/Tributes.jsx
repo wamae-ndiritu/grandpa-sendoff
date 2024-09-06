@@ -3,6 +3,7 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import wagichira from "../assets/photos/tributes/wagichira-mburu.jpg";
 import wairimuGathonI from "../assets/photos/tributes/wairimu-gathoni.jpg";
 import ngariukuWamai from "../assets/photos/tributes/ngariuku-wamai.jpg";
+import vincent from "../assets/photos/tributes/vincent.jpg";
 
 // Example tributes data
 const tributes = [
@@ -27,7 +28,17 @@ const tributes = [
     message:
       "Only sweet memories are left in my heart with GUKA...How we visited with my late mom may God continue resting her soul in peace,and GUKA would slaughter a jogoo for me that felt so special. Countless time when he visited us in math are north and his amazing archive of family photos. I celebrate a Brilliant Man...a man of honour...a very peaceful grandpa even at his last moment he just left peacefully to be with the Lord. Something I learn from and bless the lord for gifting me GUKA. Just as you always say WA NGAI NDURI MUGARURI. yote tunayakubali. May your soul rest in perfect peace...till we meet again.",
   },
-  // Add more tributes here
+  {
+    name: "Allan Muchangi Munuhe ",
+    relationship: "GrandChild",
+    message: `Today I celebrate a life well lived of a  renowned patriarch and a hero. My Guka! Apparently, the only grandfather I've had the whole of my life (now that my other grandfather passed away, way before I was born)\n\nVisiting Gachika was definitely a moment to long for knowing that I will find you and listen to your encouraging words and Counsel.\n\nNow that you're no more, my heart is shattered! 💔 I am however encouraged that you're somewhere better and definitely watching over us.\n\nI thank God for the years I've had to know you. I will miss you dearly!\n\nRest in Perfect Peace Grandpa 🕊️🕊️\n\nBy Muchangi Munuhe`,
+  },
+  {
+    name: "Vincent",
+    relationship: "Grand child",
+    image: vincent,
+    message: `TRIBUTE TO GRANDPA\n\nDear Grandpa,I still can't fathom how you're gone when it's just few days since we were together. I still recall the way we shared a cup of tea and how you'd ask for more tea to be prepared till we had our fill. However, 98 years of age is no mean achievement and I thank God for every moment he allowed me to be with you.\n\nDespite the fact that you're gone I still carry your name and I'm more proud than ever to be named after you. I thank the Almighty God for granting you good health throughout the years,despite the advancement in age. Most importantly I thank the Lord for having granted me a chance to bid you farewell and have final moments with you just before your demise, despite having procrastinated visiting your for a long time. You'll remain forever in my heart, you the pinnacle of our family tree. \n\nContinue resting in peace Grandpa 🕊️ \n“Naked I came from my mother’s womb, and naked I will depart. The Lord gave and the Lord has taken away; may the name of the Lord be praised.” (Job 1:21)`,
+  },
 ];
 
 const Tributes = () => {
