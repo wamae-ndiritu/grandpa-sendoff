@@ -1,4 +1,5 @@
 import Biography from "../components/Biography";
+import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import HymnSection from "../components/HymnSection";
 import LifeSection from "../components/LifeSection";
@@ -14,6 +15,7 @@ const Home = () => {
       <Biography />
       <Memories />
       <Tributes />
+      <Footer />
     </>
   );
 };

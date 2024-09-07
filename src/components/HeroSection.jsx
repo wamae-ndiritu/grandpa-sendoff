@@ -87,29 +87,23 @@ const HeroSection = () => {
 
       {/* Navigation Buttons */}
       <div
-        className={`fixed bottom-10 z-[99] w-full px-4 flex justify-around md:justify-center md:space-x-8 transition-opacity duration-500 ${
+        className={`fixed bottom-10 z-[99] w-full px-4 flex justify-around md:justify-center md:space-x-4 transition-opacity duration-500 ${
           showButtons ? "opacity-100" : "opacity-0"
         }`}
       >
         <div className='relative group'>
           <a
-            href='#funeral-programme'
+            href='#eulogy'
             onClick={(e) => {
               e.preventDefault();
-              document.querySelector("#funeral-programme").scrollIntoView({
+              document.querySelector("#eulogy").scrollIntoView({
                 behavior: "smooth",
               });
             }}
-            className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'
+            className='flex justify-center items-center w-12 h-12 bg-darkBlue bg-opacity-80 text-creamWhite p-2 rounded-full cursor-pointer hover:bg-darkBlue-light transition duration-300'
           >
-            <FaBookOpen className='text-4xl md:text-2xl' />
-            <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
-              Funeral Programme
-            </span>
+            <FaBookOpen className='text-2xl' />
           </a>
-          <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 text-darkBlue md:hidden'>
-            Funeral Programme
-          </span>
         </div>
         <div className='relative group'>
           <a
@@ -120,16 +114,10 @@ const HeroSection = () => {
                 behavior: "smooth",
               });
             }}
-            className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'
+            className='flex justify-center items-center w-12 h-12 bg-darkBlue bg-opacity-80 text-creamWhite p-2 rounded-full cursor-pointer hover:bg-darkBlue-light transition duration-300'
           >
-            <FaHeart className='text-4xl md:text-2xl' />
-            <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
-              Tributes
-            </span>
+            <FaHeart className='text-2xl' />
           </a>
-          <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 text-darkBlue md:hidden'>
-            Tributes
-          </span>
         </div>
         <div className='relative group'>
           <a
@@ -140,16 +128,10 @@ const HeroSection = () => {
                 behavior: "smooth",
               });
             }}
-            className='flex justify-center items-center w-16 h-16 md:w-auto md:h-auto bg-darkBlue bg-opacity-80 text-creamWhite p-4 rounded-full md:rounded-lg cursor-pointer hover:bg-darkBlue-light transition duration-300'
+            className='flex justify-center items-center w-12 h-12 bg-darkBlue bg-opacity-80 text-creamWhite p-2 rounded-full cursor-pointer hover:bg-darkBlue-light transition duration-300'
           >
-            <FaImages className='text-4xl md:text-2xl' />
-            <span className='hidden md:inline-block md:ml-2 text-lg font-medium'>
-              Memories
-            </span>
+            <FaImages className='text-2xl' />
           </a>
-          <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 text-darkBlue md:hidden'>
-            Memories
-          </span>
         </div>
       </div>
     </section>
