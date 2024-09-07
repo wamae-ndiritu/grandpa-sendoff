@@ -20,7 +20,7 @@ const LifeSection = () => {
           <div className='space-y-6'>
             <div>
               <h3 className='text-base font-semibold'>Birth</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 The late Mzee Ngariuku Wa Matu was born in 1926 at Gachika
                 Village, Kirichu Sub-location, Kiganjo Location, Nyeri County.
                 His parents were the Late Mata Wamai and the Late Kabugo Matu.
@@ -31,7 +31,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Childhood</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 The Late Mzee Ngariuku grew up being obedient and respectful to
                 his parents. He helped his parents in farming and looking after
                 his father’s cattle.
@@ -40,7 +40,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Education</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 The late Ngariuku wa Matu attended Kirichu Primary School up to
                 class two. He later began working as a casual laborer.
               </p>
@@ -48,7 +48,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Marriage</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 During the year 1946, the late Mzee Ngariuku was married to the
                 love of his life the late Ann Wairimu. They were blessed with
                 eight children namely; the late Purity Nyaruai Rukwaro, Winrose
@@ -62,7 +62,7 @@ const LifeSection = () => {
               <h3 className='text-base font-semibold'>
                 Contribution to the Struggle for Independence
               </h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 The Late Mzee Ngariuku wa Matu contributed to the struggle for
                 independence. Without even being an active fighter, he found
                 himself contributing to the early struggle for independence. Him
@@ -81,7 +81,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Church</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 The Late Mzee Ngariuku wa Matu was baptized with the Orthodox
                 Church. He has been a believer till his demise.
               </p>
@@ -89,7 +89,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Work</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 The Late Mzee Ngariuku wa Matu worked in masonry both as a
                 casual labourer and employed. He was employed by the Kenya
                 Police College, Kiganjo as a mason. He worked there up to his
@@ -100,7 +100,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Demise</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 The Late Mzee Ngariuku wa Matu has been healthy up to his aged
                 days. On Monday, 2<sup>nd</sup> September early morning, he
                 passed away. He has left many sons and daughters, grand-children
@@ -122,7 +122,7 @@ const LifeSection = () => {
           <div className='space-y-6'>
             <div>
               <h3 className='text-base font-semibold'>Guciarwo Gwake</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 Mutiga-iri Muthee Ngariuku wa Matu ni aciarirwo mwaka-ini wa
                 1926 itura-ini ria Gachika Sub-location, Kiganjo location, Nyeri
                 County. Aciciari ake ni Mutiga-iri Matu Wamai na Mwendwani-iri
@@ -133,7 +133,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Unyinyi Wake</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 Muthee Ngariuku ari munini ni akurire ena wathiki muingi na
                 wendo kuri aciari ake. Ni ateithagia aciari ake wiraina wa
                 kurima na kurithia ng’ombe cia ithe.
@@ -142,7 +142,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Githomo Giake</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 Muthee Ngariuku wa Matu ni athomire o-nginya kirathi gia keri
                 cukuru-ini wa Kirichu Primary School. Kuma hau niathire wiraini
                 wa marimia.
@@ -151,7 +151,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Kuhikania Gwake</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 Kuri mwaka-ini wa 1946, Muthee Ngariuku niahikirie mwendwa wake
                 niwe mwendwani-iri Ann Wairimu. Nimatanahirwo na ciana inyanya
                 nio mwendwani-iri Purity Nyaruai Rukwaro, Winrose Gathoni,
@@ -165,7 +165,7 @@ const LifeSection = () => {
               <h3 className='text-base font-semibold'>
                 Wirutiri Wake Bara-Ini ya Wiyathi
               </h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 Nianyitanagira na njamba cia mau mau maundu-ini ta makumethera
                 irio na kumathiganira maria muthungu athugundaga. Kuri mwaka-ini
                 wa 1948 nimanyitirwo na magitwarwo ithamirio mari ta ngombo cia
@@ -179,7 +179,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Kanitha</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 Mutiga-iri Muthee Ngariuku wa Matu arari murumiriri wa kanitha
                 wa Orthodox o-ginya kuhuruka gwake.
               </p>
@@ -187,7 +187,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Wira Wake</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 Muthee Ngariuku niathire na mbere na wira wake wa marimia ta
                 fundi wa miako ya mahiga. Niacokire akiandikwa Kenya Police
                 College, Kiganjo ari fundi, kuria arutire wira wake ginya
@@ -198,7 +198,7 @@ const LifeSection = () => {
 
             <div>
               <h3 className='text-base font-semibold'>Kuhuruka Gwake</h3>
-              <p className='text-sm mt-2'>
+              <p className='text-lg mt-2'>
                 Mutiga-iri Muthee Ngariuku niarakoretwo ari na ugima mwega wa
                 mwiri nginya ihinda-ini riri ria ukuru wake. Kuri muthenya wa
                 Jumatatu, tariki 2 mweri wa 9 ruciini, Muthee Ngariuku

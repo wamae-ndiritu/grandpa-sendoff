@@ -83,7 +83,7 @@ const Tributes = () => {
                   <img
                     src={tribute.image}
                     alt={tribute.name}
-                    className='h-[350px] w-full md:h-auto mb-2'
+                    className='h-[200px] w-full md:h-auto mb-2 object-contain'
                   />
                 )}
                 <p style={{ whiteSpace: "pre-wrap" }}>{tribute.message}</p>
