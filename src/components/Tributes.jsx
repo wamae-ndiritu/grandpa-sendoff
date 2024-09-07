@@ -4,8 +4,8 @@ import wagichira from "../assets/photos/tributes/wagichira-mburu.jpg";
 import wairimuGathonI from "../assets/photos/tributes/wairimu-gathoni.jpg";
 import ngariukuWamai from "../assets/photos/tributes/ngariuku-wamai.jpg";
 import vincent from "../assets/photos/tributes/vincent.jpg";
+import ndiritu from "../assets/photos/tributes/ndiritu.jpg";
 
-// Example tributes data
 const tributes = [
   {
     name: "Isaac Ngariuku",
@@ -20,6 +20,12 @@ const tributes = [
     message: `GUKA HEAVEN’S LUCKY TO HAVE YOU SO WAS I\n\nToday, I find myself reflecting on the incredible journey of my grandfather, Isaac Ngariuku, a man whose presence was a constant source of love, wisdom, and unwavering support throughout my life. As I put pen to paper, I am filled with immense sorrow and heartache but also immense gratitude for the profound impact he had on me and the countless ways he enriched my life.\n\nMy grandfather was not just a loving family member; he was a steadfast companion through every milestone and challenge I faced. From my earliest memories to the pivotal moments of my adulthood, he was always there, walking beside me with a gentle strength and a heart full of unconditional love. His support was a steady beacon that guided me through life’s uncertainties, offering reassurance when I needed it most.\n\nHis love was a constant, unchanging force. In a world that often feels unpredictable, his presence provided a comforting sense of stability and security. He had an extraordinary way of making me feel valued and understood, no matter what I was going through. His love was not only expressed in words but in the countless actions that demonstrated his deep commitment to my well-being and happiness.\nGuka was also a wellspring of wisdom. His counsel was always given with such thoughtfulness and clarity, helping me navigate life's complexities with greater insight and confidence. Whenever I sought guidance, his advice always aimed at helping me grow and find my own path.\n\nThe moments we shared together, whether through joyous celebrations or quiet conversations, are cherished treasures.\n\nAs I celebrate your life today, I am reminded of the values you instilled in me: kindness, integrity, and the importance of being present for those we love.\n\nThank you Guka, for being a guiding light in my life. Your love and wisdom have shaped me in ways words can scarcely capture. I will carry your memory with me always, and your influence will continue to guide me as I navigate my own path.\n\nRest in Eternal peace my beloved Guka.\nWith all my love and deepest gratitude,\nWairimu wa Ngariuku\n(Your wife as you oftenly called me)\nSpecial dedication:
     `,
     video: "https://youtu.be/UYNilQ_u09o?feature=shared",
+  },
+  {
+    name: "Ndiritu wa Wamai",
+    relationship: "Grand Child",
+    image: ndiritu,
+    message: `A Tribute to Guka ✨\n\nToday, we celebrate the life of a man who was not just our grandfather but the very foundation of our family. Guka, you lived a long and fulfilling life, reaching 98 years with grace, strength, and wisdom. You were the pillar of the Ngariuku family, always guiding us with your steady hand and kind heart. ❤️\n\nYou never needed to say much; your actions spoke louder than words. You taught us the value of hard work 💪, the importance of kindness 🌿, and the strength that comes from standing together as a family. You were always there, ready to correct us when we strayed and to encourage us when we faced challenges.\n\nGuka, you saw something in me that I sometimes doubted—a future as an engineer. You believed in me and pushed me to believe in myself. I want you to know that I will work hard to fulfill that dream, to make you proud, and to carry on the legacy you’ve left behind. 👷‍♂️\n\nIt’s hard to accept that we’ll never have another conversation, never hear your voice again. But even though you’re not with us physically, your presence will always be felt. Your wisdom, your love, and your lessons are deeply rooted in each of us. 🌟\n\nI promise to be the person you always knew I could be—strong, courageous, and kind, just like you could tell us; Wiyumiririe wa kahii ti wa kairitu. We will continue to honor you by living the values you instilled in us. Huroka uhoro Guka, Huroka uhoro njamba. 🕊️`
   },
   {
     name: "Loise Mburu",
